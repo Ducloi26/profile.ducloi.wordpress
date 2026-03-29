@@ -29,7 +29,7 @@
         </div>
 
         <h1 class="hero-name">
-          Phan <span class="line2"> Đức Lợi</span>
+          Phan <span class="line2">Đức Lợi</span>
         </h1>
 
         <p class="hero-role">
@@ -59,13 +59,20 @@
         <div class="metric-n">1+</div>
         <div class="metric-l">Năm KN</div>
       </div>
+
       <div class="metric">
         <div class="metric-n">10+</div>
         <div class="metric-l">Dự án</div>
       </div>
+
       <div class="metric">
         <div class="metric-n">15+</div>
         <div class="metric-l">Khách hàng</div>
+      </div>
+
+      <div class="metric">
+        <div class="metric-n"><?php echo esc_html(ducloi_get_post_views(get_the_ID())); ?></div>
+        <div class="metric-l">Lượt xem</div>
       </div>
     </div>
 
